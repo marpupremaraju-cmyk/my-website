@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio website showcasing skills, projects, and contact information.">
+  <title>premraju</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Your Name home">MPR<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="status-dot"></span> Welcome to my portfolio</p>
+          <h1>Hi, I'm <span class="gradient-text">premraju</span></h1>
+          <h2>Aspiring Developer &amp; Creative Problem Solver</h2>
+          <p class="hero-description">
+            I build clean, accessible, and responsive digital experiences.
+            Explore my skills and projects, and feel free to get in touch.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore My Work <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-note"><span>✦</span> Learning, building, and improving every day.</div>
+        </div>
+        <div class="hero-art" aria-label="Decorative developer illustration">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-top"><span></span><span></span><span></span><p>developer.js</p></div>
+            <div class="code-lines" aria-hidden="true">
+              <p><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</p>
+              <p class="indent"><span class="code-cyan">name</span>: <span class="code-green">"premraju"</span>,</p>
+              <p class="indent"><span class="code-cyan">passion</span>: <span class="code-green">"Building things"</span>,</p>
+              <p class="indent"><span class="code-cyan">skills</span>: [</p>
+              <p class="indent double-indent"><span class="code-green">"HTML"</span>, <span class="code-green">"CSS"</span>,</p>
+              <p class="indent double-indent"><span class="code-green">"JavaScript"</span></p>
+              <p class="indent">]</p>
+              <p>};</p>
+              <p class="code-comment">// Let's create something great!</p>
+            </div>
+            <div class="profile-bottom"><span class="pulse"></span> Available for learning &amp; collaboration</div>
+          </div>
+          <div class="floating-badge badge-html"><b>5</b><span>HTML</span></div>
+          <div class="floating-badge badge-css"><b>✦</b><span>CSS</span></div>
+          <div class="floating-badge badge-js"><b>JS</b><span>JavaScript</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about section">↓</a>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>A little <span class="gradient-text">about me</span></h2>
+          <p>Here is a quick introduction and what I enjoy working on.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-mark" aria-hidden="true"><span>&lt;</span><span>/</span><span>&gt;</span></div>
+          <div class="about-copy">
+            <h3>Curious mind. Creative approach.</h3>
+            <p>
+              Hello! I'm a student and aspiring developer interested in creating
+              useful websites and learning new technologies. I enjoy turning ideas
+              into simple, easy-to-use digital experiences.
+            </p>
+            <p>
+              This portfolio is a place to share what I'm learning, show projects
+              I've built, and connect with people who enjoy technology.
+            </p>
+            <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2>My <span class="gradient-text">skills</span></h2>
+          <p>Technologies I'm learning and using to build projects.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon icon-blue">5</div>
+            <h3>HTML5</h3><p>Clear, semantic page structure.</p>
+            <div class="skill-track"><span style="width: 85%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-purple">✦</div>
+            <h3>CSS3</h3><p>Responsive layouts and styling.</p>
+            <div class="skill-track"><span style="width: 75%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-yellow">JS</div>
+            <h3>JavaScript</h3><p>Interactive browser experiences.</p>
+            <div class="skill-track"><span style="width: 60%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-green">Py</div>
+            <h3>Python</h3><p>Programming fundamentals and logic.</p>
+            <div class="skill-track"><span style="width: 70%"></span></div>
+          </article>
+        </div>
+        <p class="small-note">Skill bars are illustrative. Adjust them to reflect your actual experience.</p>
+      </div>
+    </section>
+
+    <section class="section section-light" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SOME THINGS I'VE MADE</p>
+          <h2>Featured <span class="gradient-text">projects</span></h2>
+          <p>Replace these sample cards with your own projects and links.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one"><span class="visual-symbol">⌘</span><span class="visual-label">WEB DESIGN</span></div>
+            <div class="project-body">
+              <p class="project-type">01 / FRONT-END</p>
+              <h3>Portfolio Website</h3>
+              <p>A responsive personal website to introduce myself and showcase my work.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="text-link project-link" href="#contact" aria-label="Ask me about the portfolio project">Ask about project <span>→</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-two"><span class="visual-symbol">◫</span><span class="visual-label">PRODUCTIVITY</span></div>
+            <div class="project-body">
+              <p class="project-type">02 / JAVASCRIPT</p>
+              <h3>Task Planner</h3>
+              <p>A simple task-list concept to organize daily activities and goals.</p>
+              <div class="tag-list"><span>JavaScript</span><span>CSS</span><span>UI</span></div>
+              <a class="text-link project-link" href="#contact" aria-label="Ask me about the task planner project">Ask about project <span>→</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-three"><span class="visual-symbol">⌁</span><span class="visual-label">DATA &amp; PYTHON</span></div>
+            <div class="project-body">
+              <p class="project-type">03 / PYTHON</p>
+              <h3>Data Explorer</h3>
+              <p>A beginner-friendly project concept for exploring and displaying data.</p>
+              <div class="tag-list"><span>Python</span><span>Data</span><span>Charts</span></div>
+              <a class="text-link project-link" href="#contact" aria-label="Ask me about the data explorer project">Ask about project <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">HAVE A QUESTION?</p>
+          <h2>Let's <span class="gradient-text">connect</span></h2>
+          <p>Send a message using the demo form or contact me directly.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h3>Let's build something useful.</h3>
+            <p>Have a project idea, suggestion, or opportunity to learn together? I'd be happy to hear from you.</p>
+            <div class="contact-detail"><span class="detail-icon">✉</span><div><b>Email</b><p>24hu1a05d3@gmail.com</p></div></div>
+            <div class="contact-detail"><span class="detail-icon">⌖</span><div><b>Location</b><p>bapatla,india</p></div></div>
+            <p class="small-note">Update the sample email and location before publishing.</p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="4" placeholder="How can I help?" required></textarea>
+            <button class="button button-primary submit-button" type="submit">Send Message <span aria-hidden="true">↗</span></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-disclaimer">Demo only: this form does not email or store messages.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">MPR<span>.</span></a>
+      <p>Designed and built with <span aria-label="love">♥</span> using HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
